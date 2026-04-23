@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=League+Spartan:wght@100..900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #0d1117;
+  --color-surface: #161b22;
+  --color-border: #30363d;
+  --color-aws-orange: #ff9900;
+  --color-text: #c9d1d9;
+  --color-text-muted: #8b949e;
+  --color-green: #3fb950;
+  --color-blue: #58a6ff;
+  --color-purple: #a371f7;
+  
+  --font-mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  --font-display: "Anton", sans-serif;
+  --font-sans: "Space Grotesk", sans-serif;
+  --font-league: "League Spartan", sans-serif;
+}
+
+body {
+  @apply bg-bg text-text text-[13px];
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+}

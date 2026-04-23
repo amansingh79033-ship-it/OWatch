@@ -1,0 +1,6 @@
+{
+  "name": "CloudWatch Insight Dashboard",
+  "description": "A refined monitoring dashboard for AWS metrics, enabling users to fetch and save CloudWatch metrics for EC2, ELB/ALB, and RDS analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
