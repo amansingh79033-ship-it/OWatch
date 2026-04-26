@@ -1,4 +1,5 @@
 {
+  "name": "owatch",
   "buildCommand": "vite build",
   "outputDirectory": "dist",
   "installCommand": "npm install",
